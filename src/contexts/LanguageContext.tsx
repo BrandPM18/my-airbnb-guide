@@ -139,7 +139,7 @@ const translations: Record<Language, Record<string, string>> = {
     // Arrival
     'arrival.title': 'Arrival Instructions',
     'arrival.step1.title': 'Reception',
-    'arrival.step1.desc': 'Check in at the building reception',
+    'arrival.step1.desc': 'Check in at the building reception showing your ID.',
     'arrival.step2.title': 'Elevator',
     'arrival.step2.desc': 'Go up to floor 11, apartment 1108',
     'arrival.step3.title': 'Smart Lock',
