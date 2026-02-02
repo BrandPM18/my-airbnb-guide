@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Wifi, Copy, Check } from 'lucide-react';
 
 const WIFI_NETWORK = 'schell1108';
-const WIFI_PASSWORD = '122353';
+const WIFI_PASSWORD = '20251229';
 
 export function WiFiCard() {
   const { t } = useLanguage();
