@@ -184,7 +184,7 @@ const translations: Record<Language, Record<string, string>> = {
     // Checkout
     'checkout.title': 'Before You Leave',
     'checkout.time': 'Check-out time: 11:00 AM',
-    'checkout.step1': 'Turn off lights and air conditioners',
+    'checkout.step1': 'Turn off lights and electronic devices',
     'checkout.step2': 'Close all windows',
     'checkout.step3': 'Leave the keys on the table (if applicable)',
     'checkout.step4': 'Make sure you don\'t leave any belongings',
