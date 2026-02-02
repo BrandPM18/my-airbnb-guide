@@ -44,7 +44,7 @@ const translations: Record<Language, Record<string, string>> = {
     // Arrival
     'arrival.title': 'Instrucciones de Llegada',
     'arrival.step1.title': 'Recepción',
-    'arrival.step1.desc': 'Regístrate en la recepción del edificio',
+    'arrival.step1.desc': 'Regístrate en la recepción del edificio mostrando tu documento de identidad.',
     'arrival.step2.title': 'Ascensor',
     'arrival.step2.desc': 'Sube al piso 11, departamento 1108',
     'arrival.step3.title': 'Cerradura Inteligente',
@@ -139,7 +139,7 @@ const translations: Record<Language, Record<string, string>> = {
     // Arrival
     'arrival.title': 'Arrival Instructions',
     'arrival.step1.title': 'Reception',
-    'arrival.step1.desc': 'Check in at the building reception',
+    'arrival.step1.desc': 'Check in at the building reception showing your ID.',
     'arrival.step2.title': 'Elevator',
     'arrival.step2.desc': 'Go up to floor 11, apartment 1108',
     'arrival.step3.title': 'Smart Lock',
