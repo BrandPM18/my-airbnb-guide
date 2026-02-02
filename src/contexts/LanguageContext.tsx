@@ -89,7 +89,7 @@ const translations: Record<Language, Record<string, string>> = {
     // Checkout
     'checkout.title': 'Antes de Irte',
     'checkout.time': 'Hora de salida: 11:00 AM',
-    'checkout.step1': 'Apaga las luces y aires acondicionados',
+    'checkout.step1': 'Apaga las luces y equipos electrónicos',
     'checkout.step2': 'Cierra todas las ventanas',
     'checkout.step3': 'Deja las llaves en la mesa (si aplica)',
     'checkout.step4': 'Asegúrate de no dejar pertenencias',
@@ -184,7 +184,7 @@ const translations: Record<Language, Record<string, string>> = {
     // Checkout
     'checkout.title': 'Before You Leave',
     'checkout.time': 'Check-out time: 11:00 AM',
-    'checkout.step1': 'Turn off lights and air conditioners',
+    'checkout.step1': 'Turn off lights and electronic devices',
     'checkout.step2': 'Close all windows',
     'checkout.step3': 'Leave the keys on the table (if applicable)',
     'checkout.step4': 'Make sure you don\'t leave any belongings',
