@@ -91,7 +91,7 @@ const translations: Record<Language, Record<string, string>> = {
     'checkout.time': 'Hora de salida: 11:00 AM',
     'checkout.step1': 'Apaga las luces y equipos electrónicos',
     'checkout.step2': 'Cierra todas las ventanas',
-    'checkout.step3': 'Deja las llaves en la mesa (si aplica)',
+    'checkout.step3': 'Recuerda botar la basura',
     'checkout.step4': 'Asegúrate de no dejar pertenencias',
     'checkout.step5': 'Cierra bien la puerta al salir',
     'checkout.thanks': '¡Gracias por tu estadía! Esperamos que hayas disfrutado.',
