@@ -186,7 +186,7 @@ const translations: Record<Language, Record<string, string>> = {
     'checkout.time': 'Check-out time: 11:00 AM',
     'checkout.step1': 'Turn off lights and electronic devices',
     'checkout.step2': 'Close all windows',
-    'checkout.step3': 'Leave the keys on the table (if applicable)',
+    'checkout.step3': 'Remember to take out the trash',
     'checkout.step4': 'Make sure you don\'t leave any belongings',
     'checkout.step5': 'Close the door properly when leaving',
     'checkout.thanks': 'Thank you for your stay! We hope you enjoyed it.',
