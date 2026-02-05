@@ -86,6 +86,44 @@ const translations: Record<Language, Record<string, string>> = {
     'recommendations.entertainment': 'Entretenimiento',
     'recommendations.services': 'Servicios',
     
+    // Food recommendations
+    'recommendations.laLucha': 'La Lucha Sanguchería Criolla',
+    'recommendations.laLuchaDesc': 'Famosos sánguches peruanos clásicos.',
+    'recommendations.puntoAzul': 'Punto Azul',
+    'recommendations.puntoAzulDesc': 'Mariscos abundantes y bien valorados.',
+    'recommendations.maido': 'Maido',
+    'recommendations.maidoDesc': 'Alta Cocina nikkei, uno de los mejores restaurantes del mundo.',
+    'recommendations.rafael': 'Rafael',
+    'recommendations.rafaelDesc': 'Cocina contemporánea peruana, elegante y sofisticada.',
+    'recommendations.panchita': 'Panchita',
+    'recommendations.panchitaDesc': 'Platos criollos peruanos en ambiente acogedor.',
+    
+    // Coffee recommendations
+    'recommendations.manolo': 'Manolo',
+    'recommendations.manoloDesc': 'Cafetería tradicional, ideal para desayunos o antojos nocturnos.',
+    'recommendations.pukuPuku': 'Puku Puku Café',
+    'recommendations.pukuPukuDesc': 'Café de especialidad y brunch.',
+    'recommendations.cafeEtChocolat': 'Café Et Chocolat',
+    'recommendations.cafeEtChocolatDesc': 'Café acogedor con opciones dulces, a 3 minutos caminando.',
+    
+    // Entertainment recommendations
+    'recommendations.parqueKennedy': 'Parque Kennedy',
+    'recommendations.parqueKennedyDesc': 'Centro turístico de Miraflores, cafés, ferias y vida local.',
+    'recommendations.malecon': 'Malecón de Miraflores',
+    'recommendations.maleconDesc': 'Caminatas, bicicletas y vistas al mar.',
+    'recommendations.larcomar': 'Larcomar',
+    'recommendations.larcomarDesc': 'Centro comercial con vista al mar, restaurantes y cine.',
+    'recommendations.nightlife': 'Bares y pubs (zona Parque Kennedy / Calle Berlín)',
+    'recommendations.nightlifeDesc': 'Vida nocturna variada.',
+    
+    // Services recommendations
+    'recommendations.oxxo': 'Tienda OXXO 24/7',
+    'recommendations.oxxoDesc': 'Al costado del edificio. Snacks, comida y artículos de primera necesidad.',
+    'recommendations.metropolitano': 'Estación Metropolitano',
+    'recommendations.metropolitanoDesc': '"Benavides" (más cercana) y "Ricardo Palma" a minutos. Conecta con Centro, Barranco, San Isidro.',
+    'recommendations.wong': 'Supermercado Wong',
+    'recommendations.wongDesc': 'Compras completas.',
+    
     // Checkout
     'checkout.title': 'Antes de Irte',
     'checkout.time': 'Hora de salida: 11:00 AM',
@@ -180,6 +218,44 @@ const translations: Record<Language, Record<string, string>> = {
     'recommendations.coffee': 'Coffee',
     'recommendations.entertainment': 'Entertainment',
     'recommendations.services': 'Services',
+    
+    // Food recommendations
+    'recommendations.laLucha': 'La Lucha Sanguchería Criolla',
+    'recommendations.laLuchaDesc': 'Famous classic Peruvian sandwiches.',
+    'recommendations.puntoAzul': 'Punto Azul',
+    'recommendations.puntoAzulDesc': 'Generous and well-rated seafood.',
+    'recommendations.maido': 'Maido',
+    'recommendations.maidoDesc': 'High-end Nikkei cuisine, one of the best restaurants in the world.',
+    'recommendations.rafael': 'Rafael',
+    'recommendations.rafaelDesc': 'Contemporary Peruvian cuisine, elegant and sophisticated.',
+    'recommendations.panchita': 'Panchita',
+    'recommendations.panchitaDesc': 'Creole Peruvian dishes in a cozy atmosphere.',
+    
+    // Coffee recommendations
+    'recommendations.manolo': 'Manolo',
+    'recommendations.manoloDesc': 'Traditional café, ideal for breakfasts or late-night cravings.',
+    'recommendations.pukuPuku': 'Puku Puku Café',
+    'recommendations.pukuPukuDesc': 'Specialty coffee and brunch.',
+    'recommendations.cafeEtChocolat': 'Café Et Chocolat',
+    'recommendations.cafeEtChocolatDesc': 'Cozy café with sweet options, 3 minutes walking.',
+    
+    // Entertainment recommendations
+    'recommendations.parqueKennedy': 'Parque Kennedy',
+    'recommendations.parqueKennedyDesc': 'Tourist center of Miraflores, cafes, fairs and local life.',
+    'recommendations.malecon': 'Malecón de Miraflores',
+    'recommendations.maleconDesc': 'Walking, biking and ocean views.',
+    'recommendations.larcomar': 'Larcomar',
+    'recommendations.larcomarDesc': 'Ocean-view shopping center, restaurants and cinema.',
+    'recommendations.nightlife': 'Bars and pubs (Parque Kennedy / Calle Berlín area)',
+    'recommendations.nightlifeDesc': 'Varied nightlife.',
+    
+    // Services recommendations
+    'recommendations.oxxo': 'OXXO Store 24/7',
+    'recommendations.oxxoDesc': 'Next to the building. Snacks, food and basic necessities.',
+    'recommendations.metropolitano': 'Metropolitano Station',
+    'recommendations.metropolitanoDesc': '"Benavides" (closest) and "Ricardo Palma" minutes away. Connects to Centro, Barranco, San Isidro.',
+    'recommendations.wong': 'Wong Supermarket',
+    'recommendations.wongDesc': 'Full grocery shopping.',
     
     // Checkout
     'checkout.title': 'Before You Leave',
