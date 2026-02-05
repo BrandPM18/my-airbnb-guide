@@ -1,6 +1,6 @@
 import { useLanguage } from '@/contexts/LanguageContext';
-import { Card, CardContent } from '@/components/ui/card';
-import { PlayCircle } from 'lucide-react';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { AspectRatio } from '@/components/ui/aspect-ratio';
 
 export function Tutorials() {
   const { t } = useLanguage();
@@ -12,10 +12,20 @@ export function Tutorials() {
           {t('tutorials.title')}
         </h2>
         
-        <Card className="max-w-2xl mx-auto">
-          <CardContent className="p-8 text-center">
-            <PlayCircle className="h-16 w-16 mx-auto mb-4 text-muted-foreground" />
-            <p className="text-muted-foreground">{t('tutorials.placeholder')}</p>
+        <Card className="max-w-md mx-auto">
+          <CardHeader className="pb-2">
+            <CardTitle className="text-lg">{t('tutorials.sofaBed')}</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <AspectRatio ratio={9 / 16}>
+              <iframe
+                src="https://www.youtube.com/embed/SiZwIs_9xbg"
+                title={t('tutorials.sofaBed')}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full rounded-md"
+              />
+            </AspectRatio>
           </CardContent>
         </Card>
       </div>

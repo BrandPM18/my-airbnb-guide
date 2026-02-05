@@ -71,7 +71,7 @@ const translations: Record<Language, Record<string, string>> = {
     
     // Tutorials
     'tutorials.title': 'Tutoriales',
-    'tutorials.placeholder': 'Próximamente: videos de cómo usar los electrodomésticos',
+    'tutorials.sofaBed': 'Tutorial de cómo armar el sofá cama',
     
     // Location
     'location.title': 'Ubicación',
@@ -204,7 +204,7 @@ const translations: Record<Language, Record<string, string>> = {
     
     // Tutorials
     'tutorials.title': 'Tutorials',
-    'tutorials.placeholder': 'Coming soon: videos on how to use appliances',
+    'tutorials.sofaBed': 'How to set up the sofa bed',
     
     // Location
     'location.title': 'Location',
