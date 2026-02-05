@@ -1,16 +1,55 @@
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Card, CardContent } from '@/components/ui/card';
-import { Utensils, Coffee, Sparkles, Briefcase } from 'lucide-react';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { Utensils, Coffee, Sparkles, Briefcase, MapPin } from 'lucide-react';
 
 export function Recommendations() {
   const { t } = useLanguage();
 
-  const categories = [
-    { icon: Utensils, label: t('recommendations.food') },
-    { icon: Coffee, label: t('recommendations.coffee') },
-    { icon: Sparkles, label: t('recommendations.entertainment') },
-    { icon: Briefcase, label: t('recommendations.services') },
+  const foodPlaces = [
+    { name: t('recommendations.laLucha'), desc: t('recommendations.laLuchaDesc') },
+    { name: t('recommendations.puntoAzul'), desc: t('recommendations.puntoAzulDesc') },
+    { name: t('recommendations.maido'), desc: t('recommendations.maidoDesc') },
+    { name: t('recommendations.rafael'), desc: t('recommendations.rafaelDesc') },
+    { name: t('recommendations.panchita'), desc: t('recommendations.panchitaDesc') },
   ];
+
+  const coffeePlaces = [
+    { name: t('recommendations.manolo'), desc: t('recommendations.manoloDesc') },
+    { name: t('recommendations.pukuPuku'), desc: t('recommendations.pukuPukuDesc') },
+    { name: t('recommendations.cafeEtChocolat'), desc: t('recommendations.cafeEtChocolatDesc') },
+  ];
+
+  const entertainmentPlaces = [
+    { name: t('recommendations.parqueKennedy'), desc: t('recommendations.parqueKennedyDesc') },
+    { name: t('recommendations.malecon'), desc: t('recommendations.maleconDesc') },
+    { name: t('recommendations.larcomar'), desc: t('recommendations.larcomarDesc') },
+    { name: t('recommendations.nightlife'), desc: t('recommendations.nightlifeDesc') },
+  ];
+
+  const services = [
+    { name: t('recommendations.oxxo'), desc: t('recommendations.oxxoDesc') },
+    { name: t('recommendations.metropolitano'), desc: t('recommendations.metropolitanoDesc') },
+    { name: t('recommendations.wong'), desc: t('recommendations.wongDesc') },
+  ];
+
+  const PlacesList = ({ places }: { places: { name: string; desc: string }[] }) => (
+    <div className="space-y-3">
+      {places.map((place, index) => (
+        <Card key={index} className="bg-card/50">
+          <CardContent className="p-4">
+            <div className="flex items-start gap-3">
+              <MapPin className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
+              <div>
+                <h4 className="font-semibold text-foreground">{place.name}</h4>
+                <p className="text-sm text-muted-foreground">{place.desc}</p>
+              </div>
+            </div>
+          </CardContent>
+        </Card>
+      ))}
+    </div>
+  );
 
   return (
     <section id="recommendations" className="py-12">
@@ -19,21 +58,42 @@ export function Recommendations() {
           {t('recommendations.title')}
         </h2>
         
-        <div className="max-w-3xl mx-auto">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-            {categories.map((cat, index) => (
-              <Card key={index} className="text-center opacity-60">
-                <CardContent className="p-4">
-                  <cat.icon className="h-8 w-8 mx-auto mb-2 text-muted-foreground" />
-                  <p className="text-sm text-muted-foreground">{cat.label}</p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-          <p className="text-center text-muted-foreground text-sm">
-            {t('recommendations.comingSoon')}
-          </p>
-        </div>
+        <Tabs defaultValue="food" className="max-w-3xl mx-auto">
+          <TabsList className="grid w-full grid-cols-4 mb-6">
+            <TabsTrigger value="food" className="flex items-center gap-2">
+              <Utensils className="h-4 w-4" />
+              <span className="hidden sm:inline">{t('recommendations.food')}</span>
+            </TabsTrigger>
+            <TabsTrigger value="coffee" className="flex items-center gap-2">
+              <Coffee className="h-4 w-4" />
+              <span className="hidden sm:inline">{t('recommendations.coffee')}</span>
+            </TabsTrigger>
+            <TabsTrigger value="entertainment" className="flex items-center gap-2">
+              <Sparkles className="h-4 w-4" />
+              <span className="hidden sm:inline">{t('recommendations.entertainment')}</span>
+            </TabsTrigger>
+            <TabsTrigger value="services" className="flex items-center gap-2">
+              <Briefcase className="h-4 w-4" />
+              <span className="hidden sm:inline">{t('recommendations.services')}</span>
+            </TabsTrigger>
+          </TabsList>
+          
+          <TabsContent value="food">
+            <PlacesList places={foodPlaces} />
+          </TabsContent>
+          
+          <TabsContent value="coffee">
+            <PlacesList places={coffeePlaces} />
+          </TabsContent>
+          
+          <TabsContent value="entertainment">
+            <PlacesList places={entertainmentPlaces} />
+          </TabsContent>
+          
+          <TabsContent value="services">
+            <PlacesList places={services} />
+          </TabsContent>
+        </Tabs>
       </div>
     </section>
   );
