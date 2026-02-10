@@ -31,9 +31,9 @@ export function Recommendations() {
   ];
 
   const services = [
-    { name: t('recommendations.oxxo'), desc: t('recommendations.oxxoDesc'), search: 'OXXO Grimaldo del Solar Miraflores' },
-    { name: t('recommendations.metropolitano'), desc: t('recommendations.metropolitanoDesc'), search: 'Estación Benavides Metropolitano' },
-    { name: t('recommendations.wong'), desc: t('recommendations.wongDesc'), search: 'Wong Miraflores' },
+    { name: t('recommendations.oxxo'), desc: t('recommendations.oxxoDesc'), url: 'https://maps.app.goo.gl/Uf2bjrENUqDd6ReXA' },
+    { name: t('recommendations.metropolitano'), desc: t('recommendations.metropolitanoDesc'), url: 'https://maps.app.goo.gl/Ky8QrNXSesGvdqfXA' },
+    { name: t('recommendations.vivanda'), desc: t('recommendations.vivandaDesc'), url: 'https://maps.app.goo.gl/28xK1ethe4pU8VjU8' },
   ];
 
   const PlacesList = ({ places }: { places: { name: string; desc: string; url?: string; search?: string }[] }) => (
