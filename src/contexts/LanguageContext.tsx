@@ -65,9 +65,15 @@ const translations: Record<Language, Record<string, string>> = {
     'rules.guestsDesc': 'Solo personas registradas. Visitantes deben notificarse para registro',
     
     // Gallery
-    'gallery.title': 'Conoce el Departamento',
-    'gallery.living': 'Sala - Comedor',
-    'gallery.bedroom': 'Dormitorio',
+    'gallery.title': 'Conoce las Áreas Comunes',
+    'gallery.coworking': 'Coworking',
+    'gallery.coworkingDesc': 'Zona apta para trabajar, cuenta con Wifi y aire acondicionado. Puedes solicitar la clave y el control de aire acondicionado en recepción. Cuenta con una TV para presentaciones.',
+    'gallery.gym': 'Gimnasio',
+    'gallery.gymDesc': 'Ambiente para ejercitar, cuenta con aire acondicionado. Solicita la entrada por medio del chat con el anfitrión. Ingreso únicamente con zapatillas.',
+    'gallery.lobby': 'Lobby',
+    'gallery.lobbyDesc': 'Cuenta con sofás donde podrás esperar en caso se requiera, también tiene un baño. Se puede solicitar guardar hasta 2 equipajes.',
+    'gallery.laundry': 'Lavandería',
+    'gallery.laundryDesc': 'Zona común del edificio, hay máquinas lavadoras y secadoras. El costo por uso es de 12 soles peruanos.',
     
     // Tutorials
     'tutorials.title': 'Tutoriales',
@@ -198,9 +204,15 @@ const translations: Record<Language, Record<string, string>> = {
     'rules.guestsDesc': 'Only registered guests. Visitors must be notified for registration',
     
     // Gallery
-    'gallery.title': 'Explore the Apartment',
-    'gallery.living': 'Living - Dining Room',
-    'gallery.bedroom': 'Bedroom',
+    'gallery.title': 'Common Areas',
+    'gallery.coworking': 'Coworking',
+    'gallery.coworkingDesc': 'Work-friendly area with WiFi and air conditioning. You can request the password and AC remote at reception. Includes a TV for presentations.',
+    'gallery.gym': 'Gym',
+    'gallery.gymDesc': 'Exercise area with air conditioning. Request access through the host chat. Sneakers required.',
+    'gallery.lobby': 'Lobby',
+    'gallery.lobbyDesc': 'Features sofas for waiting and a restroom. You can request to store up to 2 pieces of luggage.',
+    'gallery.laundry': 'Laundry',
+    'gallery.laundryDesc': 'Shared building area with washing machines and dryers. Cost per use is 12 Peruvian soles.',
     
     // Tutorials
     'tutorials.title': 'Tutorials',

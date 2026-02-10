@@ -2,16 +2,20 @@ import { useState } from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Dialog, DialogContent } from '@/components/ui/dialog';
 import { X } from 'lucide-react';
-import livingImage from '@/assets/apartment-living.jpeg';
-import bedroomImage from '@/assets/apartment-bedroom.png';
+import coworkingImage from '@/assets/area-coworking.jpg';
+import gymImage from '@/assets/area-gym.jpg';
+import lobbyImage from '@/assets/area-lobby.jpg';
+import laundryImage from '@/assets/area-laundry.jpg';
 
 export function Gallery() {
   const { t } = useLanguage();
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
-  const images = [
-    { src: livingImage, alt: t('gallery.living') },
-    { src: bedroomImage, alt: t('gallery.bedroom') },
+  const areas = [
+    { src: coworkingImage, name: t('gallery.coworking'), desc: t('gallery.coworkingDesc') },
+    { src: gymImage, name: t('gallery.gym'), desc: t('gallery.gymDesc') },
+    { src: lobbyImage, name: t('gallery.lobby'), desc: t('gallery.lobbyDesc') },
+    { src: laundryImage, name: t('gallery.laundry'), desc: t('gallery.laundryDesc') },
   ];
 
   return (
@@ -21,21 +25,26 @@ export function Gallery() {
           {t('gallery.title')}
         </h2>
         
-        <div className="grid sm:grid-cols-2 gap-4 max-w-3xl mx-auto">
-          {images.map((image, index) => (
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-5xl mx-auto">
+          {areas.map((area, index) => (
             <div
               key={index}
-              className="relative aspect-[4/3] rounded-lg overflow-hidden cursor-pointer group"
-              onClick={() => setSelectedImage(image.src)}
+              className="rounded-lg overflow-hidden border border-border bg-card shadow-sm"
             >
-              <img
-                src={image.src}
-                alt={image.alt}
-                className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-              />
-              <div className="absolute inset-0 bg-foreground/0 group-hover:bg-foreground/20 transition-colors" />
-              <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-foreground/60 to-transparent">
-                <p className="text-background font-medium">{image.alt}</p>
+              <div
+                className="relative aspect-[4/3] cursor-pointer group"
+                onClick={() => setSelectedImage(area.src)}
+              >
+                <img
+                  src={area.src}
+                  alt={area.name}
+                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-foreground/0 group-hover:bg-foreground/20 transition-colors" />
+              </div>
+              <div className="p-3">
+                <h3 className="font-semibold text-foreground text-sm mb-1">{area.name}</h3>
+                <p className="text-xs text-muted-foreground leading-relaxed">{area.desc}</p>
               </div>
             </div>
           ))}
@@ -52,7 +61,7 @@ export function Gallery() {
             {selectedImage && (
               <img
                 src={selectedImage}
-                alt="Apartment"
+                alt="Area"
                 className="w-full h-auto rounded-lg"
               />
             )}
