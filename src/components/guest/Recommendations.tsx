@@ -24,10 +24,10 @@ export function Recommendations() {
   ];
 
   const entertainmentPlaces = [
-    { name: t('recommendations.parqueKennedy'), desc: t('recommendations.parqueKennedyDesc'), search: 'Parque Kennedy Miraflores' },
-    { name: t('recommendations.malecon'), desc: t('recommendations.maleconDesc'), search: 'Malecón de Miraflores' },
-    { name: t('recommendations.larcomar'), desc: t('recommendations.larcomarDesc'), search: 'Larcomar Miraflores' },
-    { name: t('recommendations.nightlife'), desc: t('recommendations.nightlifeDesc'), search: 'Calle Berlín Miraflores' },
+    { name: t('recommendations.parqueKennedy'), desc: t('recommendations.parqueKennedyDesc'), url: 'https://maps.app.goo.gl/7YRLX3vFjD9xunzT6' },
+    { name: t('recommendations.malecon'), desc: t('recommendations.maleconDesc'), url: 'https://maps.app.goo.gl/kTL2kYH5YM4ssdJT6' },
+    { name: t('recommendations.larcomar'), desc: t('recommendations.larcomarDesc'), url: 'https://maps.app.goo.gl/oi4n7dg6zChWYk8v6' },
+    { name: t('recommendations.nightlife'), desc: t('recommendations.nightlifeDesc'), url: 'https://maps.app.goo.gl/FySNkx7Lqxu715219' },
   ];
 
   const services = [
