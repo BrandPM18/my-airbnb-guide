@@ -65,9 +65,15 @@ const translations: Record<Language, Record<string, string>> = {
     'rules.guestsDesc': 'Solo personas registradas. Visitantes deben notificarse para registro',
     
     // Gallery
-    'gallery.title': 'Conoce el Departamento',
-    'gallery.living': 'Sala - Comedor',
-    'gallery.bedroom': 'Dormitorio',
+    'gallery.title': 'Conoce las Áreas Comunes',
+    'gallery.coworking': 'Coworking',
+    'gallery.coworkingDesc': 'Zona apta para trabajar, cuenta con Wifi y aire acondicionado. Puedes solicitar la clave y el control de aire acondicionado en recepción. Cuenta con una TV para presentaciones.',
+    'gallery.gym': 'Gimnasio',
+    'gallery.gymDesc': 'Ambiente para ejercitar, cuenta con aire acondicionado. Solicita la entrada por medio del chat con el anfitrión. Ingreso únicamente con zapatillas.',
+    'gallery.lobby': 'Lobby',
+    'gallery.lobbyDesc': 'Cuenta con sofás donde podrás esperar en caso se requiera, también tiene un baño. Se puede solicitar guardar hasta 2 equipajes.',
+    'gallery.laundry': 'Lavandería',
+    'gallery.laundryDesc': 'Zona común del edificio, hay máquinas lavadoras y secadoras. El costo por uso es de 12 soles peruanos.',
     
     // Tutorials
     'tutorials.title': 'Tutoriales',
