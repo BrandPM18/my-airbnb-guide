@@ -204,9 +204,15 @@ const translations: Record<Language, Record<string, string>> = {
     'rules.guestsDesc': 'Only registered guests. Visitors must be notified for registration',
     
     // Gallery
-    'gallery.title': 'Explore the Apartment',
-    'gallery.living': 'Living - Dining Room',
-    'gallery.bedroom': 'Bedroom',
+    'gallery.title': 'Common Areas',
+    'gallery.coworking': 'Coworking',
+    'gallery.coworkingDesc': 'Work-friendly area with WiFi and air conditioning. You can request the password and AC remote at reception. Includes a TV for presentations.',
+    'gallery.gym': 'Gym',
+    'gallery.gymDesc': 'Exercise area with air conditioning. Request access through the host chat. Sneakers required.',
+    'gallery.lobby': 'Lobby',
+    'gallery.lobbyDesc': 'Features sofas for waiting and a restroom. You can request to store up to 2 pieces of luggage.',
+    'gallery.laundry': 'Laundry',
+    'gallery.laundryDesc': 'Shared building area with washing machines and dryers. Cost per use is 12 Peruvian soles.',
     
     // Tutorials
     'tutorials.title': 'Tutorials',
