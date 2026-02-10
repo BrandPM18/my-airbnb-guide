@@ -127,8 +127,8 @@ const translations: Record<Language, Record<string, string>> = {
     'recommendations.oxxoDesc': 'Al costado del edificio. Snacks, comida y artículos de primera necesidad.',
     'recommendations.metropolitano': 'Estación Metropolitano',
     'recommendations.metropolitanoDesc': '"Benavides" (más cercana) y "Ricardo Palma" a minutos. Conecta con Centro, Barranco, San Isidro.',
-    'recommendations.wong': 'Supermercado Wong',
-    'recommendations.wongDesc': 'Compras completas.',
+    'recommendations.vivanda': 'Supermercado Vivanda',
+    'recommendations.vivandaDesc': 'A 3 minutos caminando, supermercado con productos de calidad.',
     
     // Checkout
     'checkout.title': 'Antes de Irte',
