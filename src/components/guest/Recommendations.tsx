@@ -36,12 +36,12 @@ export function Recommendations() {
     { name: t('recommendations.wong'), desc: t('recommendations.wongDesc'), search: 'Wong Miraflores' },
   ];
 
-  const PlacesList = ({ places }: { places: { name: string; desc: string; search: string }[] }) => (
+  const PlacesList = ({ places }: { places: { name: string; desc: string; url?: string; search?: string }[] }) => (
     <div className="space-y-3">
       {places.map((place, index) => (
         <a
           key={index}
-          href={mapsUrl(place.search)}
+          href={place.url || mapsUrl(place.search || place.name)}
           target="_blank"
           rel="noopener noreferrer"
           className="block"
