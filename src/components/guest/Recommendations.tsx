@@ -10,11 +10,11 @@ export function Recommendations() {
   const { t } = useLanguage();
 
   const foodPlaces = [
-    { name: t('recommendations.laLucha'), desc: t('recommendations.laLuchaDesc'), search: 'La Lucha Sanguchería Criolla' },
-    { name: t('recommendations.puntoAzul'), desc: t('recommendations.puntoAzulDesc'), search: 'Punto Azul Miraflores' },
-    { name: t('recommendations.maido'), desc: t('recommendations.maidoDesc'), search: 'Maido restaurante' },
-    { name: t('recommendations.rafael'), desc: t('recommendations.rafaelDesc'), search: 'Rafael restaurante Miraflores' },
-    { name: t('recommendations.panchita'), desc: t('recommendations.panchitaDesc'), search: 'Panchita restaurante Miraflores' },
+    { name: t('recommendations.laLucha'), desc: t('recommendations.laLuchaDesc'), url: 'https://maps.app.goo.gl/1raB6bSzPaSAcC2K8' },
+    { name: t('recommendations.puntoAzul'), desc: t('recommendations.puntoAzulDesc'), url: 'https://maps.app.goo.gl/wWPZfACnBe3w8whR9' },
+    { name: t('recommendations.maido'), desc: t('recommendations.maidoDesc'), url: 'https://maps.app.goo.gl/5psz5EFPkwiFjC1fA' },
+    { name: t('recommendations.rafael'), desc: t('recommendations.rafaelDesc'), url: 'https://maps.app.goo.gl/4jmqWqFS3gKDixww5' },
+    { name: t('recommendations.panchita'), desc: t('recommendations.panchitaDesc'), url: 'https://maps.app.goo.gl/WA88AHCyZjSwYQ6Z8' },
   ];
 
   const coffeePlaces = [
@@ -36,12 +36,12 @@ export function Recommendations() {
     { name: t('recommendations.wong'), desc: t('recommendations.wongDesc'), search: 'Wong Miraflores' },
   ];
 
-  const PlacesList = ({ places }: { places: { name: string; desc: string; search: string }[] }) => (
+  const PlacesList = ({ places }: { places: { name: string; desc: string; url?: string; search?: string }[] }) => (
     <div className="space-y-3">
       {places.map((place, index) => (
         <a
           key={index}
-          href={mapsUrl(place.search)}
+          href={place.url || mapsUrl(place.search || place.name)}
           target="_blank"
           rel="noopener noreferrer"
           className="block"
