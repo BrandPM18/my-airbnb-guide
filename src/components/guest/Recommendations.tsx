@@ -3,50 +3,61 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Utensils, Coffee, Sparkles, Briefcase, MapPin } from 'lucide-react';
 
+const mapsUrl = (query: string) =>
+  `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query + ', Miraflores, Lima')}`;
+
 export function Recommendations() {
   const { t } = useLanguage();
 
   const foodPlaces = [
-    { name: t('recommendations.laLucha'), desc: t('recommendations.laLuchaDesc') },
-    { name: t('recommendations.puntoAzul'), desc: t('recommendations.puntoAzulDesc') },
-    { name: t('recommendations.maido'), desc: t('recommendations.maidoDesc') },
-    { name: t('recommendations.rafael'), desc: t('recommendations.rafaelDesc') },
-    { name: t('recommendations.panchita'), desc: t('recommendations.panchitaDesc') },
+    { name: t('recommendations.laLucha'), desc: t('recommendations.laLuchaDesc'), search: 'La Lucha Sanguchería Criolla' },
+    { name: t('recommendations.puntoAzul'), desc: t('recommendations.puntoAzulDesc'), search: 'Punto Azul Miraflores' },
+    { name: t('recommendations.maido'), desc: t('recommendations.maidoDesc'), search: 'Maido restaurante' },
+    { name: t('recommendations.rafael'), desc: t('recommendations.rafaelDesc'), search: 'Rafael restaurante Miraflores' },
+    { name: t('recommendations.panchita'), desc: t('recommendations.panchitaDesc'), search: 'Panchita restaurante Miraflores' },
   ];
 
   const coffeePlaces = [
-    { name: t('recommendations.manolo'), desc: t('recommendations.manoloDesc') },
-    { name: t('recommendations.pukuPuku'), desc: t('recommendations.pukuPukuDesc') },
-    { name: t('recommendations.cafeEtChocolat'), desc: t('recommendations.cafeEtChocolatDesc') },
+    { name: t('recommendations.manolo'), desc: t('recommendations.manoloDesc'), search: 'Manolo café Miraflores' },
+    { name: t('recommendations.pukuPuku'), desc: t('recommendations.pukuPukuDesc'), search: 'Puku Puku Café Miraflores' },
+    { name: t('recommendations.cafeEtChocolat'), desc: t('recommendations.cafeEtChocolatDesc'), search: 'Café Et Chocolat Miraflores' },
   ];
 
   const entertainmentPlaces = [
-    { name: t('recommendations.parqueKennedy'), desc: t('recommendations.parqueKennedyDesc') },
-    { name: t('recommendations.malecon'), desc: t('recommendations.maleconDesc') },
-    { name: t('recommendations.larcomar'), desc: t('recommendations.larcomarDesc') },
-    { name: t('recommendations.nightlife'), desc: t('recommendations.nightlifeDesc') },
+    { name: t('recommendations.parqueKennedy'), desc: t('recommendations.parqueKennedyDesc'), search: 'Parque Kennedy Miraflores' },
+    { name: t('recommendations.malecon'), desc: t('recommendations.maleconDesc'), search: 'Malecón de Miraflores' },
+    { name: t('recommendations.larcomar'), desc: t('recommendations.larcomarDesc'), search: 'Larcomar Miraflores' },
+    { name: t('recommendations.nightlife'), desc: t('recommendations.nightlifeDesc'), search: 'Calle Berlín Miraflores' },
   ];
 
   const services = [
-    { name: t('recommendations.oxxo'), desc: t('recommendations.oxxoDesc') },
-    { name: t('recommendations.metropolitano'), desc: t('recommendations.metropolitanoDesc') },
-    { name: t('recommendations.wong'), desc: t('recommendations.wongDesc') },
+    { name: t('recommendations.oxxo'), desc: t('recommendations.oxxoDesc'), search: 'OXXO Grimaldo del Solar Miraflores' },
+    { name: t('recommendations.metropolitano'), desc: t('recommendations.metropolitanoDesc'), search: 'Estación Benavides Metropolitano' },
+    { name: t('recommendations.wong'), desc: t('recommendations.wongDesc'), search: 'Wong Miraflores' },
   ];
 
-  const PlacesList = ({ places }: { places: { name: string; desc: string }[] }) => (
+  const PlacesList = ({ places }: { places: { name: string; desc: string; search: string }[] }) => (
     <div className="space-y-3">
       {places.map((place, index) => (
-        <Card key={index} className="bg-card/50">
-          <CardContent className="p-4">
-            <div className="flex items-start gap-3">
-              <MapPin className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-              <div>
-                <h4 className="font-semibold text-foreground">{place.name}</h4>
-                <p className="text-sm text-muted-foreground">{place.desc}</p>
+        <a
+          key={index}
+          href={mapsUrl(place.search)}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block"
+        >
+          <Card className="bg-card/50 hover:bg-accent/50 transition-colors cursor-pointer">
+            <CardContent className="p-4">
+              <div className="flex items-start gap-3">
+                <MapPin className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
+                <div className="flex-1">
+                  <h4 className="font-semibold text-foreground">{place.name}</h4>
+                  <p className="text-sm text-muted-foreground">{place.desc}</p>
+                </div>
               </div>
-            </div>
-          </CardContent>
-        </Card>
+            </CardContent>
+          </Card>
+        </a>
       ))}
     </div>
   );
