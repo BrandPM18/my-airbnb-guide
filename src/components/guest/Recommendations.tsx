@@ -18,22 +18,22 @@ export function Recommendations() {
   ];
 
   const coffeePlaces = [
-    { name: t('recommendations.manolo'), desc: t('recommendations.manoloDesc'), search: 'Manolo café Miraflores' },
-    { name: t('recommendations.pukuPuku'), desc: t('recommendations.pukuPukuDesc'), search: 'Puku Puku Café Miraflores' },
-    { name: t('recommendations.cafeEtChocolat'), desc: t('recommendations.cafeEtChocolatDesc'), search: 'Café Et Chocolat Miraflores' },
+    { name: t('recommendations.manolo'), desc: t('recommendations.manoloDesc'), url: 'https://maps.app.goo.gl/caVykZcJvhKJdKqq9' },
+    { name: t('recommendations.pukuPuku'), desc: t('recommendations.pukuPukuDesc'), url: 'https://maps.app.goo.gl/cS5DGhqP6asLarQr7' },
+    { name: t('recommendations.cafeEtChocolat'), desc: t('recommendations.cafeEtChocolatDesc'), url: 'https://maps.app.goo.gl/My4H9KiLVBd8TXny9' },
   ];
 
   const entertainmentPlaces = [
-    { name: t('recommendations.parqueKennedy'), desc: t('recommendations.parqueKennedyDesc'), search: 'Parque Kennedy Miraflores' },
-    { name: t('recommendations.malecon'), desc: t('recommendations.maleconDesc'), search: 'Malecón de Miraflores' },
-    { name: t('recommendations.larcomar'), desc: t('recommendations.larcomarDesc'), search: 'Larcomar Miraflores' },
-    { name: t('recommendations.nightlife'), desc: t('recommendations.nightlifeDesc'), search: 'Calle Berlín Miraflores' },
+    { name: t('recommendations.parqueKennedy'), desc: t('recommendations.parqueKennedyDesc'), url: 'https://maps.app.goo.gl/7YRLX3vFjD9xunzT6' },
+    { name: t('recommendations.malecon'), desc: t('recommendations.maleconDesc'), url: 'https://maps.app.goo.gl/kTL2kYH5YM4ssdJT6' },
+    { name: t('recommendations.larcomar'), desc: t('recommendations.larcomarDesc'), url: 'https://maps.app.goo.gl/oi4n7dg6zChWYk8v6' },
+    { name: t('recommendations.nightlife'), desc: t('recommendations.nightlifeDesc'), url: 'https://maps.app.goo.gl/FySNkx7Lqxu715219' },
   ];
 
   const services = [
-    { name: t('recommendations.oxxo'), desc: t('recommendations.oxxoDesc'), search: 'OXXO Grimaldo del Solar Miraflores' },
-    { name: t('recommendations.metropolitano'), desc: t('recommendations.metropolitanoDesc'), search: 'Estación Benavides Metropolitano' },
-    { name: t('recommendations.wong'), desc: t('recommendations.wongDesc'), search: 'Wong Miraflores' },
+    { name: t('recommendations.oxxo'), desc: t('recommendations.oxxoDesc'), url: 'https://maps.app.goo.gl/Uf2bjrENUqDd6ReXA' },
+    { name: t('recommendations.metropolitano'), desc: t('recommendations.metropolitanoDesc'), url: 'https://maps.app.goo.gl/Ky8QrNXSesGvdqfXA' },
+    { name: t('recommendations.vivanda'), desc: t('recommendations.vivandaDesc'), url: 'https://maps.app.goo.gl/28xK1ethe4pU8VjU8' },
   ];
 
   const PlacesList = ({ places }: { places: { name: string; desc: string; url?: string; search?: string }[] }) => (
