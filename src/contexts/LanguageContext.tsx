@@ -303,12 +303,12 @@ const translations: Record<Language, Record<string, string>> = {
     'nav.products': 'Services',
     'products.title': 'Additional Products & Services',
     'products.subtitle': 'Enhance your stay with these exclusive services',
-    'products.sunscreen': 'Facial Sunscreen',
-    'products.sunscreenDesc': 'High-quality sun protection ideal for Lima\'s climate. SPF 50+, perfect for walks along the boardwalk and outdoor activities.',
+    'products.parking': 'Private Parking',
+    'products.parkingDesc': '1 space inside the building, with security and 24/7 surveillance cameras. Direct and convenient access for peace of mind during your stay.',
     'products.cleaning': 'Additional Cleaning Service',
-    'products.cleaningDesc': 'Deep cleaning of the apartment during your stay. Includes change of sheets, towels, and complete disinfection of spaces.',
-    'products.foodTour': 'Lima Gastronomy Tour',
-    'products.foodTourDesc': 'Guided tour through the best local restaurants and markets. Taste ceviche, anticuchos, causa, and more iconic Peruvian dishes.',
+    'products.cleaningDesc': 'Deep cleaning service for the apartment.\n\nIncludes:\n• Change of sheets\n• Change of towels\n• Complete cleaning and disinfection of bathroom, kitchen, and common areas\n\nIdeal for long stays or for those who want extra comfort.',
+    'products.sunscreen': 'TOCOBO Facial Sunscreen',
+    'products.sunscreenDesc': 'High-quality Korean sun protection, ideal for Lima\'s climate and outdoor activities like walks along the boardwalk or beach visits.\n\n• Lightweight texture\n• No white residue\n• Suitable for sensitive skin\n• Available in stick or liquid format.',
     'products.contact': '📱 To request any service, contact us via WhatsApp',
   }
 };
