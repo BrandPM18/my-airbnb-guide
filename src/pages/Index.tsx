@@ -10,6 +10,7 @@ import { Tutorials } from '@/components/guest/Tutorials';
 import { Location } from '@/components/guest/Location';
 import { Recommendations } from '@/components/guest/Recommendations';
 import { Checkout } from '@/components/guest/Checkout';
+import { ProductsBanner } from '@/components/guest/ProductsBanner';
 import { WhatsAppButton } from '@/components/guest/WhatsAppButton';
 import { Footer } from '@/components/guest/Footer';
 
@@ -28,6 +29,7 @@ const Index = () => {
           <Tutorials />
           <Location />
           <Recommendations />
+          <ProductsBanner />
           <Checkout />
         </main>
         <Footer />
