@@ -147,6 +147,18 @@ const translations: Record<Language, Record<string, string>> = {
     // Footer
     'footer.thanks': 'Gracias por elegir nuestro hogar',
     'footer.contact': 'Contacto',
+
+    // Products
+    'nav.products': 'Servicios',
+    'products.title': 'Productos y Servicios Adicionales',
+    'products.subtitle': 'Mejora tu estadía con estos servicios exclusivos',
+    'products.sunscreen': 'Bloqueador Solar para Rostro',
+    'products.sunscreenDesc': 'Protección solar de alta calidad ideal para el clima de Lima. Factor SPF 50+, perfecto para paseos por el malecón y actividades al aire libre.',
+    'products.cleaning': 'Servicio de Limpieza Adicional',
+    'products.cleaningDesc': 'Limpieza profunda del departamento durante tu estadía. Incluye cambio de sábanas, toallas y desinfección completa de espacios.',
+    'products.foodTour': 'Tour Gastronómico de Lima',
+    'products.foodTourDesc': 'Recorrido guiado por los mejores restaurantes y mercados locales. Degusta ceviche, anticuchos, causa y más platos emblemáticos de la gastronomía peruana.',
+    'products.contact': '📱 Para solicitar cualquier servicio, contáctanos por WhatsApp',
   },
   en: {
     // Header
@@ -286,6 +298,18 @@ const translations: Record<Language, Record<string, string>> = {
     // Footer
     'footer.thanks': 'Thank you for choosing our home',
     'footer.contact': 'Contact',
+
+    // Products
+    'nav.products': 'Services',
+    'products.title': 'Additional Products & Services',
+    'products.subtitle': 'Enhance your stay with these exclusive services',
+    'products.sunscreen': 'Facial Sunscreen',
+    'products.sunscreenDesc': 'High-quality sun protection ideal for Lima\'s climate. SPF 50+, perfect for walks along the boardwalk and outdoor activities.',
+    'products.cleaning': 'Additional Cleaning Service',
+    'products.cleaningDesc': 'Deep cleaning of the apartment during your stay. Includes change of sheets, towels, and complete disinfection of spaces.',
+    'products.foodTour': 'Lima Gastronomy Tour',
+    'products.foodTourDesc': 'Guided tour through the best local restaurants and markets. Taste ceviche, anticuchos, causa, and more iconic Peruvian dishes.',
+    'products.contact': '📱 To request any service, contact us via WhatsApp',
   }
 };
 
