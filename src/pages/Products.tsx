@@ -7,6 +7,7 @@ import { Badge } from '@/components/ui/badge';
 import parkingImg from '@/assets/product-parking.webp';
 import cleaningImg from '@/assets/product-cleaning.jpg';
 import sunscreenImg from '@/assets/product-sunscreen.jpg';
+import transferImg from '@/assets/product-transfer.png';
 
 const products = [
   {
