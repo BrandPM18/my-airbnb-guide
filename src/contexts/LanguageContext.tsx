@@ -306,7 +306,7 @@ const translations: Record<Language, Record<string, string>> = {
     // Products
     'nav.products': 'Services',
     'products.title': 'Additional Products & Services',
-    'products.subtitle': 'Enhance your stay with these exclusive services',
+    'products.subtitle': 'Everything you can add for a more comfortable and worry-free stay. We offer safe taxi, parking, essential products and more',
     'products.parking': 'Private Parking',
     'products.parkingDesc': '1 space inside the building, with security and 24/7 surveillance cameras. Direct and convenient access for peace of mind during your stay.',
     'products.cleaning': 'Additional Cleaning Service',
