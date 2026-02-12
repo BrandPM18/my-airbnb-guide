@@ -240,6 +240,7 @@ const translations: Record<Language, Record<string, string>> = {
     
     // Recommendations
     'recommendations.title': 'Local Recommendations',
+    'recommendations.subtitle': '(just minutes away)',
     'recommendations.comingSoon': 'Coming soon: restaurants, cafes and nearby attractions',
     'recommendations.food': 'Food',
     'recommendations.coffee': 'Coffee',
