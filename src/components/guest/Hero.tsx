@@ -1,6 +1,6 @@
 import { useLanguage } from '@/contexts/LanguageContext';
 import { MapPin } from 'lucide-react';
-import heroImage from '@/assets/apartment-living.jpeg';
+import heroImage from '@/assets/building-exterior.jpg';
 
 export function Hero() {
   const { t } = useLanguage();
