@@ -158,6 +158,8 @@ const translations: Record<Language, Record<string, string>> = {
     'products.cleaningDesc': 'Servicio de limpieza profunda del departamento.\n\nIncluye:\n• Cambio de sábanas\n• Cambio de toallas\n• Limpieza y desinfección completa de baño, cocina y áreas comunes\n\nIdeal para estadías largas o para quienes desean mayor comodidad.',
     'products.sunscreen': 'Bloqueador Solar para Rostro TOCOBO',
     'products.sunscreenDesc': 'Protección solar coreana de alta calidad, ideal para el clima de Lima y actividades al aire libre como caminatas por el malecón o visitas a la playa.\n\n• Textura ligera\n• No deja residuo blanco\n• Apto para piel sensible\n• Disponible en formato barra o líquido.',
+    'products.transfer': 'Traslado Aeropuerto – Departamento',
+    'products.transferDesc': 'Servicio de traslado privado coordinado con conductor de confianza, ideal para una llegada segura y sin complicaciones.\n\nEl servicio se realiza en auto moderno con lunas polarizadas, brindando mayor privacidad y comodidad durante el trayecto.',
     'products.contact': '📱 Para solicitar cualquier servicio, contáctanos por WhatsApp',
   },
   en: {
