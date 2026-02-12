@@ -31,6 +31,13 @@ const products = [
     priceUsd: 25,
     image: sunscreenImg,
   },
+  {
+    nameKey: 'products.transfer',
+    descKey: 'products.transferDesc',
+    priceSoles: 89,
+    priceUsd: 28,
+    image: transferImg,
+  },
 ];
 
 const Products = () => {

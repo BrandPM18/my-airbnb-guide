@@ -311,6 +311,8 @@ const translations: Record<Language, Record<string, string>> = {
     'products.cleaningDesc': 'Deep cleaning service for the apartment.\n\nIncludes:\n• Change of sheets\n• Change of towels\n• Complete cleaning and disinfection of bathroom, kitchen, and common areas\n\nIdeal for long stays or for those who want extra comfort.',
     'products.sunscreen': 'TOCOBO Facial Sunscreen',
     'products.sunscreenDesc': 'High-quality Korean sun protection, ideal for Lima\'s climate and outdoor activities like walks along the boardwalk or beach visits.\n\n• Lightweight texture\n• No white residue\n• Suitable for sensitive skin\n• Available in stick or liquid format.',
+    'products.transfer': 'Airport – Apartment Transfer',
+    'products.transferDesc': 'Private transfer service coordinated with a trusted driver, ideal for a safe and hassle-free arrival.\n\nThe service is provided in a modern car with tinted windows, offering greater privacy and comfort during the ride.',
     'products.contact': '📱 To request any service, contact us via WhatsApp',
   }
 };
