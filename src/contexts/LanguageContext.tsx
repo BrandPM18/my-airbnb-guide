@@ -158,6 +158,8 @@ const translations: Record<Language, Record<string, string>> = {
     'products.cleaningDesc': 'Servicio de limpieza profunda del departamento.\n\nIncluye:\n• Cambio de sábanas\n• Cambio de toallas\n• Limpieza y desinfección completa de baño, cocina y áreas comunes\n\nIdeal para estadías largas o para quienes desean mayor comodidad.',
     'products.sunscreen': 'Bloqueador Solar para Rostro TOCOBO',
     'products.sunscreenDesc': 'Protección solar coreana de alta calidad, ideal para el clima de Lima y actividades al aire libre como caminatas por el malecón o visitas a la playa.\n\n• Textura ligera\n• No deja residuo blanco\n• Apto para piel sensible\n• Disponible en formato barra o líquido.',
+    'products.transfer': 'Traslado Aeropuerto – Departamento',
+    'products.transferDesc': 'Servicio de traslado privado coordinado con conductor de confianza, ideal para una llegada segura y sin complicaciones.\n\nEl servicio se realiza en auto moderno con lunas polarizadas, brindando mayor privacidad y comodidad durante el trayecto.',
     'products.contact': '📱 Para solicitar cualquier servicio, contáctanos por WhatsApp',
   },
   en: {
@@ -309,6 +311,8 @@ const translations: Record<Language, Record<string, string>> = {
     'products.cleaningDesc': 'Deep cleaning service for the apartment.\n\nIncludes:\n• Change of sheets\n• Change of towels\n• Complete cleaning and disinfection of bathroom, kitchen, and common areas\n\nIdeal for long stays or for those who want extra comfort.',
     'products.sunscreen': 'TOCOBO Facial Sunscreen',
     'products.sunscreenDesc': 'High-quality Korean sun protection, ideal for Lima\'s climate and outdoor activities like walks along the boardwalk or beach visits.\n\n• Lightweight texture\n• No white residue\n• Suitable for sensitive skin\n• Available in stick or liquid format.',
+    'products.transfer': 'Airport – Apartment Transfer',
+    'products.transferDesc': 'Private transfer service coordinated with a trusted driver, ideal for a safe and hassle-free arrival.\n\nThe service is provided in a modern car with tinted windows, offering greater privacy and comfort during the ride.',
     'products.contact': '📱 To request any service, contact us via WhatsApp',
   }
 };
