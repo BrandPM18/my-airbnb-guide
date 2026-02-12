@@ -152,7 +152,7 @@ const translations: Record<Language, Record<string, string>> = {
     // Products
     'nav.products': 'Servicios',
     'products.title': 'Productos y Servicios Adicionales',
-    'products.subtitle': 'Mejora tu estadía con estos servicios exclusivos',
+    'products.subtitle': 'Todo lo que puedes añadir para una estadía más cómoda y sin preocupaciones. Contamos con taxi seguro, estacionamiento, productos esenciales y más',
     'products.parking': 'Estacionamiento Privado',
     'products.parkingDesc': '1 espacio dentro del edificio, con seguridad y cámaras de vigilancia 24/7. Acceso directo y cómodo para mayor tranquilidad durante tu estadía.',
     'products.cleaning': 'Servicio de Limpieza Adicional',
@@ -306,7 +306,7 @@ const translations: Record<Language, Record<string, string>> = {
     // Products
     'nav.products': 'Services',
     'products.title': 'Additional Products & Services',
-    'products.subtitle': 'Enhance your stay with these exclusive services',
+    'products.subtitle': 'Everything you can add for a more comfortable and worry-free stay. We offer safe taxi, parking, essential products and more',
     'products.parking': 'Private Parking',
     'products.parkingDesc': '1 space inside the building, with security and 24/7 surveillance cameras. Direct and convenient access for peace of mind during your stay.',
     'products.cleaning': 'Additional Cleaning Service',
