@@ -1,6 +1,6 @@
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Card, CardContent } from '@/components/ui/card';
-import { Clock, Users, Bed, Building } from 'lucide-react';
+import { Clock, Bed } from 'lucide-react';
 
 export function QuickInfo() {
   const { t } = useLanguage();
