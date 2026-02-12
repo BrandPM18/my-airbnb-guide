@@ -65,9 +65,10 @@ export function Recommendations() {
   return (
     <section id="recommendations" className="py-12">
       <div className="container mx-auto px-4">
-        <h2 className="text-2xl md:text-3xl font-bold text-center text-foreground mb-8">
+        <h2 className="text-2xl md:text-3xl font-bold text-center text-foreground mb-2">
           {t('recommendations.title')}
         </h2>
+        <p className="text-center text-muted-foreground mb-8">{t('recommendations.subtitle')}</p>
         
         <Tabs defaultValue="food" className="max-w-3xl mx-auto">
           <TabsList className="grid w-full grid-cols-4 mb-6">

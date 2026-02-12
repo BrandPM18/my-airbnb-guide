@@ -86,6 +86,7 @@ const translations: Record<Language, Record<string, string>> = {
     
     // Recommendations
     'recommendations.title': 'Recomendaciones Locales',
+    'recommendations.subtitle': '(a solo minutos de distancia)',
     'recommendations.comingSoon': 'Próximamente agregaremos restaurantes, cafés y atracciones cercanas',
     'recommendations.food': 'Comida',
     'recommendations.coffee': 'Café',
@@ -239,6 +240,7 @@ const translations: Record<Language, Record<string, string>> = {
     
     // Recommendations
     'recommendations.title': 'Local Recommendations',
+    'recommendations.subtitle': '(just minutes away)',
     'recommendations.comingSoon': 'Coming soon: restaurants, cafes and nearby attractions',
     'recommendations.food': 'Food',
     'recommendations.coffee': 'Coffee',
