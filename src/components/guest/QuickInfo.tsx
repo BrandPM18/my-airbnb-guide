@@ -14,21 +14,10 @@ export function QuickInfo() {
       subvalue: '11:00',
     },
     {
-      icon: Users,
-      label: t('info.guests'),
-      value: `${t('info.upTo')} 6`,
-    },
-    {
       icon: Bed,
       label: t('info.beds'),
       value: '3',
       sublabel: t('info.bedsDetail'),
-    },
-    {
-      icon: Building,
-      label: t('info.floor'),
-      value: '11',
-      sublabel: 'Dpto 1108',
     },
   ];
 
