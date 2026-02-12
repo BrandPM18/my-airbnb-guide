@@ -24,7 +24,7 @@ export function QuickInfo() {
   return (
     <section id="info" className="py-12 bg-muted/30">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 gap-4 max-w-md mx-auto">
           {infoCards.map((card, index) => (
             <Card key={index} className="text-center">
               <CardContent className="pt-6">
