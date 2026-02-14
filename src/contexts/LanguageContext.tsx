@@ -161,7 +161,7 @@ const translations: Record<Language, Record<string, string>> = {
     'products.sunscreenDesc': 'Protección solar coreana de alta calidad, ideal para el clima de Lima y actividades al aire libre como caminatas por el malecón o visitas a la playa.\n\n• Textura ligera\n• No deja residuo blanco\n• Apto para piel sensible\n• Disponible en formato barra o líquido.',
     'products.transfer': 'Traslado Aeropuerto – Departamento',
     'products.transferDesc': 'Servicio de traslado privado coordinado con conductor de confianza, ideal para una llegada segura y sin complicaciones.\n\nEl servicio se realiza en auto moderno con lunas polarizadas, brindando mayor privacidad y comodidad durante el trayecto.',
-    'products.contact': '📱 Para solicitar cualquier servicio, contáctanos por WhatsApp',
+    'products.contact': '📱 Para solicitar cualquier servicio, escríbenos por el chat de Airbnb o WhatsApp',
   },
   en: {
     // Header
@@ -315,7 +315,7 @@ const translations: Record<Language, Record<string, string>> = {
     'products.sunscreenDesc': 'High-quality Korean sun protection, ideal for Lima\'s climate and outdoor activities like walks along the boardwalk or beach visits.\n\n• Lightweight texture\n• No white residue\n• Suitable for sensitive skin\n• Available in stick or liquid format.',
     'products.transfer': 'Airport – Apartment Transfer',
     'products.transferDesc': 'Private transfer service coordinated with a trusted driver, ideal for a safe and hassle-free arrival.\n\nThe service is provided in a modern car with tinted windows, offering greater privacy and comfort during the ride.',
-    'products.contact': '📱 To request any service, contact us via WhatsApp',
+    'products.contact': '📱 To request any service, write to us via the Airbnb chat or WhatsApp',
   }
 };
 
