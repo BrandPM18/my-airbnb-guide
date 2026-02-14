@@ -8,7 +8,7 @@ export function Hero() {
   return (
     <section className="relative min-h-[70vh] flex items-center justify-center pt-16">
       <div 
-        className="absolute inset-0 bg-cover bg-bottom"
+        className="absolute inset-0 bg-cover bg-[center_65%]"
         style={{ backgroundImage: `url(${heroImage})` }}
       >
         <div className="absolute inset-0 bg-background/60 backdrop-blur-[2px]" />
