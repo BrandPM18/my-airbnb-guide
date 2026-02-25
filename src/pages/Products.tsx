@@ -4,19 +4,12 @@ import { Footer } from '@/components/guest/Footer';
 import { WhatsAppButton } from '@/components/guest/WhatsAppButton';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import parkingImg from '@/assets/product-parking.webp';
+
 import cleaningImg from '@/assets/product-cleaning.jpg';
 import sunscreenImg from '@/assets/product-sunscreen.jpg';
 import transferImg from '@/assets/product-transfer.png';
 
 const products = [
-  {
-    nameKey: 'products.parking',
-    descKey: 'products.parkingDesc',
-    priceSoles: 25,
-    priceUsd: 8,
-    image: parkingImg,
-  },
   {
     nameKey: 'products.cleaning',
     descKey: 'products.cleaningDesc',
