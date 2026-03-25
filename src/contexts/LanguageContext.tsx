@@ -78,6 +78,8 @@ const translations: Record<Language, Record<string, string>> = {
     // Tutorials
     'tutorials.title': 'Tutoriales',
     'tutorials.sofaBed': 'Tutorial de cómo armar el sofá cama',
+    'tutorials.hotWater': 'Tutorial de uso de agua caliente',
+    'tutorials.hotWaterDesc': 'Abre la manija izquierda (en caso de haber dos manijas) o hacia la izquierda (en caso de haber solo una manija). La terma se encuentra al frente del refrigerador, en el clóset. Se escuchará un sonido de encendido. Espera unos segundos y saldrá agua caliente.',
     
     // Location
     'location.title': 'Ubicación',
@@ -232,6 +234,8 @@ const translations: Record<Language, Record<string, string>> = {
     // Tutorials
     'tutorials.title': 'Tutorials',
     'tutorials.sofaBed': 'How to set up the sofa bed',
+    'tutorials.hotWater': 'Hot water usage tutorial',
+    'tutorials.hotWaterDesc': 'Turn the left handle (if there are two handles) or to the left (if there is only one handle). The water heater is located in front of the refrigerator, inside the closet. You will hear a startup sound. Wait a few seconds and hot water will flow.',
     
     // Location
     'location.title': 'Location',
