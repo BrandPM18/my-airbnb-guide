@@ -234,6 +234,8 @@ const translations: Record<Language, Record<string, string>> = {
     // Tutorials
     'tutorials.title': 'Tutorials',
     'tutorials.sofaBed': 'How to set up the sofa bed',
+    'tutorials.hotWater': 'Hot water usage tutorial',
+    'tutorials.hotWaterDesc': 'Turn the left handle (if there are two handles) or to the left (if there is only one handle). The water heater is located in front of the refrigerator, inside the closet. You will hear a startup sound. Wait a few seconds and hot water will flow.',
     
     // Location
     'location.title': 'Location',
