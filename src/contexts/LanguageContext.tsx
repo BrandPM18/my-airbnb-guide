@@ -235,7 +235,7 @@ const translations: Record<Language, Record<string, string>> = {
     'tutorials.title': 'Tutorials',
     'tutorials.sofaBed': 'How to set up the sofa bed',
     'tutorials.hotWater': 'Hot water usage tutorial',
-    'tutorials.hotWaterDesc': 'Turn the left handle (if there are two handles) or to the left (if there is only one handle). The water heater is located in front of the refrigerator, inside the closet. You will hear a startup sound. Wait a few seconds and hot water will flow.',
+    'tutorials.hotWaterDesc': 'Turn the left handle (if there are two handles) or to the left (if there is only one handle). The water heater is located in front of the refrigerator, inside the closet. You will hear a startup sound. Wait a few seconds and hot water will flow. The hot water reaches a high temperature: always turn on the cold water first and mix to your preference before stepping into the shower.',
     
     // Location
     'location.title': 'Location',
