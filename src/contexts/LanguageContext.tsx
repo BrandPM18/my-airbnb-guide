@@ -79,7 +79,7 @@ const translations: Record<Language, Record<string, string>> = {
     'tutorials.title': 'Tutoriales',
     'tutorials.sofaBed': 'Tutorial de cómo armar el sofá cama',
     'tutorials.hotWater': 'Tutorial de uso de agua caliente',
-    'tutorials.hotWaterDesc': 'Abre la manija izquierda (en caso de haber dos manijas) o hacia la izquierda (en caso de haber solo una manija). La terma se encuentra al frente del refrigerador, en el clóset. Se escuchará un sonido de encendido. Espera unos segundos y saldrá agua caliente.',
+    'tutorials.hotWaterDesc': 'Abre la manija izquierda (en caso de haber dos manijas) o hacia la izquierda (en caso de haber solo una manija). La terma se encuentra al frente del refrigerador, en el clóset. Se escuchará un sonido de encendido. Espera unos segundos y saldrá agua caliente. El agua caliente llega a temperatura alta: abrir siempre el agua fría primero y mezclar al gusto antes de ingresar a la ducha.',
     
     // Location
     'location.title': 'Ubicación',
