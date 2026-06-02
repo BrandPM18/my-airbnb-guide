@@ -71,7 +71,7 @@ const translations: Record<Language, Record<string, string>> = {
     'gallery.gym': 'Gimnasio',
     'gallery.gymDesc': 'Ambiente para ejercitar, cuenta con aire acondicionado. Solicita la entrada por medio del chat con el anfitrión. Ingreso únicamente con zapatillas.',
     'gallery.lobby': 'Lobby',
-    'gallery.lobbyDesc': 'Cuenta con sofás donde podrás esperar en caso se requiera, también tiene un baño. ¡Recuerda que puedes dejar tus maletas aquí en caso de que llegues antes de tu check-in o después de tu check-out!',
+    'gallery.lobbyDesc': 'Cuenta con sofás donde podrás esperar en caso se requiera, también tiene un baño. ¡Puedes dejar tus maletas aquí en caso de que llegues antes de tu check-in o después de tu check-out!',
     'gallery.laundry': 'Lavandería',
     'gallery.laundryDesc': 'Zona común del edificio, hay máquinas lavadoras y secadoras. El costo por uso es de 12 soles peruanos.',
     
@@ -226,7 +226,7 @@ const translations: Record<Language, Record<string, string>> = {
     'gallery.gym': 'Gym',
     'gallery.gymDesc': 'Exercise area with air conditioning. Request access through the host chat. Sneakers required.',
     'gallery.lobby': 'Lobby',
-    'gallery.lobbyDesc': 'Features sofas for waiting and a restroom. Remember you can leave your luggage here if you arrive before your check-in or after your check-out!',
+    'gallery.lobbyDesc': 'Features sofas for waiting and a restroom. You can leave your luggage here if you arrive before your check-in or after your check-out!',
     'gallery.laundry': 'Laundry',
     'gallery.laundryDesc': 'Shared building area with washing machines and dryers. Cost per use is 12 Peruvian soles.',
     
