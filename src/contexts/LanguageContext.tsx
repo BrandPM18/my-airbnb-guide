@@ -137,10 +137,9 @@ const translations: Record<Language, Record<string, string>> = {
     'checkout.title': 'Antes de Irte',
     'checkout.time': 'Hora de salida: 11:00 AM',
     'checkout.step1': 'Apaga las luces y equipos electrónicos',
-    'checkout.step2': 'Cierra todas las ventanas',
-    'checkout.step3': 'Recuerda botar la basura',
-    'checkout.step4': 'Asegúrate de no dejar pertenencias',
-    'checkout.step5': 'Cierra bien la puerta al salir',
+    'checkout.step2': 'Recuerda botar la basura',
+    'checkout.step3': 'Asegúrate de no dejar pertenencias',
+    'checkout.step4': '¿Tu vuelo sale más tarde? Puedes dejar tus maletas en la recepción',
     'checkout.thanks': '¡Gracias por tu estadía! Esperamos que hayas disfrutado.',
     
     // Contact
@@ -293,10 +292,9 @@ const translations: Record<Language, Record<string, string>> = {
     'checkout.title': 'Before You Leave',
     'checkout.time': 'Check-out time: 11:00 AM',
     'checkout.step1': 'Turn off lights and electronic devices',
-    'checkout.step2': 'Close all windows',
-    'checkout.step3': 'Remember to take out the trash',
-    'checkout.step4': 'Make sure you don\'t leave any belongings',
-    'checkout.step5': 'Close the door properly when leaving',
+    'checkout.step2': 'Remember to take out the trash',
+    'checkout.step3': 'Make sure you don\'t leave any belongings',
+    'checkout.step4': 'Does your flight leave later? You can leave your luggage at reception',
     'checkout.thanks': 'Thank you for your stay! We hope you enjoyed it.',
     
     // Contact

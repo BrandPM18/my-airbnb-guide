@@ -10,7 +10,6 @@ export function Checkout() {
     t('checkout.step2'),
     t('checkout.step3'),
     t('checkout.step4'),
-    t('checkout.step5'),
   ];
 
   return (
