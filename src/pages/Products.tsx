@@ -8,8 +8,16 @@ import { Badge } from '@/components/ui/badge';
 import cleaningImg from '@/assets/product-cleaning.jpg';
 import sunscreenImg from '@/assets/product-sunscreen.jpg';
 import transferImg from '@/assets/product-transfer.png';
+import parkingImg from '@/assets/product-parking.jpg';
 
 const products = [
+  {
+    nameKey: 'products.parking',
+    descKey: 'products.parkingDesc',
+    priceSoles: 35,
+    priceUsd: 11,
+    image: parkingImg,
+  },
   {
     nameKey: 'products.cleaning',
     descKey: 'products.cleaningDesc',
