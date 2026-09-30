@@ -11,6 +11,7 @@ export function Recommendations() {
 
   const foodPlaces = [
     { name: t('recommendations.laLucha'), desc: t('recommendations.laLuchaDesc'), url: 'https://maps.app.goo.gl/1raB6bSzPaSAcC2K8' },
+    { name: t('recommendations.sieteSopas'), desc: t('recommendations.sieteSopasDesc'), url: 'https://maps.app.goo.gl/785F42hgoNgFUfNP7' },
     { name: t('recommendations.puntoAzul'), desc: t('recommendations.puntoAzulDesc'), url: 'https://maps.app.goo.gl/wWPZfACnBe3w8whR9' },
     { name: t('recommendations.maido'), desc: t('recommendations.maidoDesc'), url: 'https://maps.app.goo.gl/5psz5EFPkwiFjC1fA' },
     { name: t('recommendations.rafael'), desc: t('recommendations.rafaelDesc'), url: 'https://maps.app.goo.gl/4jmqWqFS3gKDixww5' },
