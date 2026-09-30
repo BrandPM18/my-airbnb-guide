@@ -19,6 +19,7 @@ export function Recommendations() {
   ];
 
   const coffeePlaces = [
+    { name: t('recommendations.kaldis'), desc: t('recommendations.kaldisDesc'), url: 'https://maps.app.goo.gl/2jXue93WKk4zDyZS7' },
     { name: t('recommendations.manolo'), desc: t('recommendations.manoloDesc'), url: 'https://maps.app.goo.gl/caVykZcJvhKJdKqq9' },
     { name: t('recommendations.pukuPuku'), desc: t('recommendations.pukuPukuDesc'), url: 'https://maps.app.goo.gl/cS5DGhqP6asLarQr7' },
     { name: t('recommendations.cafeEtChocolat'), desc: t('recommendations.cafeEtChocolatDesc'), url: 'https://maps.app.goo.gl/My4H9KiLVBd8TXny9' },

@@ -110,6 +110,8 @@ const translations: Record<Language, Record<string, string>> = {
     'recommendations.panchitaDesc': 'Platos criollos peruanos en ambiente acogedor.',
     
     // Coffee recommendations
+    'recommendations.kaldis': 'Kaldis Specialty Coffee',
+    'recommendations.kaldisDesc': 'Café de especialidad a unos pasos del edificio.',
     'recommendations.manolo': 'Manolo',
     'recommendations.manoloDesc': 'Cafetería tradicional, ideal para desayunos o antojos nocturnos.',
     'recommendations.pukuPuku': 'Puku Puku Café',
@@ -267,6 +269,8 @@ const translations: Record<Language, Record<string, string>> = {
     'recommendations.panchitaDesc': 'Creole Peruvian dishes in a cozy atmosphere.',
     
     // Coffee recommendations
+    'recommendations.kaldis': 'Kaldis Specialty Coffee',
+    'recommendations.kaldisDesc': 'Specialty coffee just steps from the building.',
     'recommendations.manolo': 'Manolo',
     'recommendations.manoloDesc': 'Traditional café, ideal for breakfasts or late-night cravings.',
     'recommendations.pukuPuku': 'Puku Puku Café',
