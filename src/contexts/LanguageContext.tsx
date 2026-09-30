@@ -98,6 +98,8 @@ const translations: Record<Language, Record<string, string>> = {
     // Food recommendations
     'recommendations.laLucha': 'La Lucha Sanguchería Criolla',
     'recommendations.laLuchaDesc': 'Famosos sánguches peruanos clásicos.',
+    'recommendations.sieteSopas': 'Siete Sopas',
+    'recommendations.sieteSopasDesc': 'Populares sopas peruanas y comida criolla, suele estar lleno todos los días, pero vale la pena la espera.',
     'recommendations.puntoAzul': 'Punto Azul',
     'recommendations.puntoAzulDesc': 'Mariscos abundantes y bien valorados.',
     'recommendations.maido': 'Maido',
@@ -253,6 +255,8 @@ const translations: Record<Language, Record<string, string>> = {
     // Food recommendations
     'recommendations.laLucha': 'La Lucha Sanguchería Criolla',
     'recommendations.laLuchaDesc': 'Famous classic Peruvian sandwiches.',
+    'recommendations.sieteSopas': 'Siete Sopas',
+    'recommendations.sieteSopasDesc': 'Popular Peruvian soups and creole food, it tends to be full every day, but it is worth the wait.',
     'recommendations.puntoAzul': 'Punto Azul',
     'recommendations.puntoAzulDesc': 'Generous and well-rated seafood.',
     'recommendations.maido': 'Maido',
