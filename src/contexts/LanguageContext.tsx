@@ -329,7 +329,11 @@ const translations: Record<Language, Record<string, string>> = {
   }
 };
 
-const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
+// Keep a single context instance across hot reloads (prevents "must be used within a LanguageProvider" after text edits)
+const globalKey = '__guestLanguageContext__';
+const LanguageContext: React.Context<LanguageContextType | undefined> =
+  (globalThis as any)[globalKey] ??
+  ((globalThis as any)[globalKey] = createContext<LanguageContextType | undefined>(undefined));
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const [language, setLanguage] = useState<Language>('es');
