@@ -269,6 +269,8 @@ const translations: Record<Language, Record<string, string>> = {
     'recommendations.panchitaDesc': 'Creole Peruvian dishes in a cozy atmosphere.',
     
     // Coffee recommendations
+    'recommendations.kaldis': 'Kaldis Specialty Coffee',
+    'recommendations.kaldisDesc': 'Specialty coffee just steps from the building.',
     'recommendations.manolo': 'Manolo',
     'recommendations.manoloDesc': 'Traditional café, ideal for breakfasts or late-night cravings.',
     'recommendations.pukuPuku': 'Puku Puku Café',
