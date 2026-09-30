@@ -258,7 +258,7 @@ const translations: Record<Language, Record<string, string>> = {
     'recommendations.laLucha': 'La Lucha Sanguchería Criolla',
     'recommendations.laLuchaDesc': 'Famous classic Peruvian sandwiches.',
     'recommendations.sieteSopas': 'Siete Sopas',
-    'recommendations.sieteSopasDesc': 'Popular Peruvian soups and creole food, it tends to be full every day, but it is worth the wait.',
+    'recommendations.sieteSopasDesc': 'Popular Peruvian soups and criolla food, it tends to be full every day, but it is worth the wait.',
     'recommendations.puntoAzul': 'Punto Azul',
     'recommendations.puntoAzulDesc': 'Generous and well-rated seafood.',
     'recommendations.maido': 'Maido',
@@ -266,7 +266,7 @@ const translations: Record<Language, Record<string, string>> = {
     'recommendations.rafael': 'Rafael',
     'recommendations.rafaelDesc': 'Contemporary Peruvian cuisine, elegant and sophisticated.',
     'recommendations.panchita': 'Panchita',
-    'recommendations.panchitaDesc': 'Creole Peruvian dishes in a cozy atmosphere.',
+    'recommendations.panchitaDesc': 'Criolla Peruvian dishes in a cozy atmosphere.',
     
     // Coffee recommendations
     'recommendations.kaldis': 'Kaldis Specialty Coffee',
